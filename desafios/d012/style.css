@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+header {
+    height: 80px;
+    background: black;
+    color: white;
+    padding: 32px 0;
+
+}
+
+header h1 {
+    margin: auto;
+}
