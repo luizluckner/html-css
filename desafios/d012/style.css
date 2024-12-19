@@ -68,7 +68,6 @@ section > p {
     font-family: var(--font2);
     font-size: 20px;
     color: rgb(38, 37, 37);
-    align-content: center;
 }
 
 .paralax {
