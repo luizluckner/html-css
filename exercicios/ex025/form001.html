@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
     <style>
+        label {
+            display: inline-block;
+            width: 80px;
+            justify-content: flex-end;
+        }
     </style>
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
     <fieldset>
-        <form action="cadastro.php">
+        <form action="cadastro.php" method="post">
             <p>
                 <label for="iname">Nome:</label>
-                <input type="text" name="name" id="iname">
+                <input type="text" name="name" id="iname" required>
             </p>
             <p>
                 <label for="isobrenome">Sobrenome:</label>
-                <input type="text" name="sobrenome" id="isobrenome">
+                <input type="text" name="sobrenome" id="isobrenome" required>
             </p>
             <p>
                 <label for="ipassword">Senha:</label>
-                <input type="password" name="passward" id="ipassword">
+                <input type="password" name="passward" id="ipassword" required>
             </p>
             <p><input type="submit" value="Enviar"></p>
         </form>
