@@ -37,7 +37,9 @@ header a:hover {
     display: none;
 }
 
-menu {display: block;}
+menu {
+    display: block;
+}
 
 section {
     max-width: 480px;
