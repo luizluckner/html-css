@@ -37,6 +37,8 @@ header a:hover {
     display: none;
 }
 
+menu {display: block;}
+
 section {
     max-width: 480px;
     background-color: #fff;
@@ -50,10 +52,6 @@ section p {
 }
 
 @media screen and (max-width:480px) {
-    body {
-        background-color: green;
-    }
-
     menu {
         display: none;
     }
